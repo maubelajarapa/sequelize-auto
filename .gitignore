@@ -1,5 +1,5 @@
-lib
-types
+# lib
+# types
 test/models/*.js
 sample/models/*
 sample/northwind.sqlite
