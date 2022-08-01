@@ -192,6 +192,9 @@ export class AutoGenerator {
       str += space[2] + "schema: '" + schemaName + "',\n";
     }
 
+    // always add model name
+    str += space[2] + "modelName: #TABLE#',\n";
+
     if (this.hasTriggerTables[table]) {
       str += space[2] + "hasTrigger: true,\n";
     }
